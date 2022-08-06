@@ -1,0 +1,8 @@
+--root {
+    --color1: #667eea;
+    --color2: #764ba2;
+}
+
+body {
+    background-image: linear-gradient(to right, #667eea, #764ba2);
+}
