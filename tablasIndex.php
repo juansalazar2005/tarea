@@ -11,21 +11,21 @@
     
     <div class="container">
 
-        <div class="tabla">
+        <div class="formulario">
 
             <form action="proccessTablas.php" method="post">
 
                 <div class="section">
                     <p>Escribe la tabla que desees ver</p>
-                    <input type="number" name="tabla">
+                    <input type="number" name="tabla" class="field">
                 </div>
                 <div class="section">
                     <p>Escribe hasta que resultado quieres que llegue</p>
-                    <input type="number" name="numero">
+                    <input type="number" name="numero" class="field">
                 </div>
-                <div class="btn">
+                <div class="botn">
                     <p></p>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" class="btn">
                 </div>
                 
             </form>
